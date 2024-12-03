@@ -107,6 +107,8 @@
   width: 310px;
   height: 200px;
   font-size: 10px;
+  top: 30%;
+
 }
 .heart {
   margin-top: 31px;
@@ -117,5 +119,6 @@
   font-weight: 700;
   color:white;
   font-size:10px;
+  padding-left:97px;
 }
 }
