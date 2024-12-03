@@ -6,7 +6,7 @@
     border-radius: 3px;
     border: 1px solid lightgrey;
     top: 30%;
-    left: 25%;
+    left: 30%;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
       rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
       rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
@@ -79,4 +79,43 @@
 }  
 .press{
     padding-left:250px;
+}
+@media screen and (max-width:576px){
+  .card {
+
+    width: 300px;
+    height: 150px;
+    top: 30%;
+    left: 15%;
+  }
+  .arrow1 {
+    width: 175px;
+    transform: rotate(30deg);
+  }
+  
+  .arrow2 {
+    width: 146px;
+    transform: rotate(-35deg);
+    margin-left: 150px;
+  }
+
+  .arrows{
+    margin-top: 50px;
+}
+
+.letter {
+  width: 310px;
+  height: 200px;
+  font-size: 10px;
+}
+.heart {
+  margin-top: 31px;
+  margin-left: 138px;
+ 
+}
+.press{
+  font-weight: 700;
+  color:white;
+  font-size:10px;
+}
 }
