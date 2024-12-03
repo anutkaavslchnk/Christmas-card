@@ -1,0 +1,82 @@
+.card {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    background-color: blanchedalmond;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    top: 30%;
+    left: 35%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .card.open {
+    transform: scale(1.1);
+  }
+  
+  .arrow1,
+  .arrow2 {
+    height: 2px;
+    background-color: peru;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow1 {
+    width: 340px;
+    transform: rotate(30deg);
+  }
+  
+  .arrow2 {
+    width: 330px;
+    transform: rotate(-30deg);
+    margin-left: 296px;
+  }
+  
+  .heart {
+    margin-top: 73px;
+    margin-left: 293px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .letter {
+    width: 500px;
+    height: 400px;
+    background: white;
+    border: 1px solid lightgrey;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    padding:10px;
+  }
+  
+  .letter.open {
+    transform: translate(-50%, -50%) scale(1); /* Показ записки */
+  }
+  
+  .hidden {
+    display: none;
+  }
+.arrows{
+    margin-top: 90px;
+}  
+.press{
+    padding-left:250px;
+}
