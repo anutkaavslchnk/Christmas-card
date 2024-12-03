@@ -87,6 +87,7 @@
     height: 150px;
     top: 30%;
     left: 15%;
+  
   }
   .arrow1 {
     width: 175px;
@@ -107,7 +108,8 @@
   width: 310px;
   height: 200px;
   font-size: 10px;
-  top: 30%;
+  top: 50%;
+  
 
 }
 .heart {
