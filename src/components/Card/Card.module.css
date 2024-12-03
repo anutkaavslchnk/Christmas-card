@@ -105,10 +105,12 @@
 }
 
 .letter {
+  padding:15px;
   width: 310px;
   height: 200px;
   font-size: 10px;
-  
+  top:10px;
+  left:150px;
   
 
 }
